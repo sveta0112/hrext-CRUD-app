@@ -1,0 +1,33 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+table {
+  border-collapse: collapse;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: #8A2BE2;
+  color: white;
+}
+
+tr:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+/* Space out content a bit */
+
+tbody td{
+  padding:30px;
+}
+tbody tr:nth-child(odd){
+  background-color: #F5F5F5;
+  color: #000000;
+}
+
+
