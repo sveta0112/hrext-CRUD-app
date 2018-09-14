@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Todo Activities</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron" align="center">
+			<h2>Enter Todo Acitivity:</h2>
+			<form id="local_storage_form" method="post" data-theme="e">
+				<div class="form-group">
+					<label>Task name:</label>
+					<input type="text" id="item" form="local_storage_form"  class="form-control" required></textarea>
+				</div>
+				<input type="submit" value="Submit" class="btn btn-primary">
+			</form>
+		</div>
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><b>Activity List </b></div>
+			<div class="panel-body">
+				<div class="tbl_user_data"></div>
+			</div>
+		</div>
+		<div class="panel-heading" align="center"><b><button class="confirm" type="button">Delete All Activities</button></div>
+</div>
+
+</body>
+</html>
